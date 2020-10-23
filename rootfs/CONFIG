@@ -12,7 +12,7 @@ PACKAGES += dropbear
 INETD_ENABLE = y
 DROPBEAR_KEYS = n
 # Disable use of passwords for ssh login
-DROPBEAR_OPTS = -s
+#DROPBEAR_OPTS = -s
 
 PACKAGES += ntp
 NTP_CONF = n
@@ -32,6 +32,7 @@ PACKAGES += iperf
 PACKAGES += i2c-tools
 
 SYSTEM_PYTHON = 3
+#SYSTEM_PYTHON = 2
 PACKAGES += libffi
 PACKAGES += libressl
 PACKAGES += Python
