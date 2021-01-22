@@ -21,6 +21,7 @@
 # The NTP server or servers can be specified here:
 #
 #   NTP = 172.23.240.2 172.23.199.1
+NTP = 194.47.252.176
 
 # The machine hostname can be specified here:
 #
